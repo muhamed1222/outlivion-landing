@@ -1,0 +1,13 @@
+{
+  "buildCommand": "pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXT_PUBLIC_BOT_URL": "@outlivion_bot_url",
+    "NEXT_PUBLIC_PORTAL_URL": "@outlivion_portal_url",
+    "NEXT_PUBLIC_TELEGRAM_BOT_NAME": "@telegram_bot_name"
+  }
+}
+
