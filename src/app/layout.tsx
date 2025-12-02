@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   keywords: ['VPN', 'Outlivion', 'privacy', 'security', 'безопасность', 'приватность'],
   authors: [{ name: 'Outlivion' }],
   viewport: 'width=device-width, initial-scale=1',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({
