@@ -113,12 +113,27 @@ NEXT_PUBLIC_PORTAL_URL=https://portal.outlivion.space
 
 ## 🔐 Переменные окружения
 
+### Production (Vercel)
 ```env
 # Telegram Bot
 NEXT_PUBLIC_BOT_URL=https://t.me/outlivionbot
 
-# Web Portal (опционально)
+# Other URLs
+NEXT_PUBLIC_APP_URL=https://app.outlivion.space
 NEXT_PUBLIC_PORTAL_URL=https://portal.outlivion.space
+NEXT_PUBLIC_DASHBOARD_URL=https://dashboard.outlivion.space
+
+# Environment
+NODE_ENV=production
+```
+
+### Development (Local)
+```env
+NEXT_PUBLIC_BOT_URL=https://t.me/outlivionbot
+NEXT_PUBLIC_APP_URL=http://localhost:3002
+NEXT_PUBLIC_PORTAL_URL=http://localhost:3000
+NEXT_PUBLIC_DASHBOARD_URL=http://localhost:3004
+NODE_ENV=development
 ```
 
 ---
