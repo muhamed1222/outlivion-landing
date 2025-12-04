@@ -25,6 +25,9 @@
     --ring: 11 96% 66%;
     --radius: 0.5rem;
   }
+  .theme {
+    --animate-background-position-spin: background-position-spin 3000ms infinite alternate;
+  }
 }
 
 * {
@@ -79,3 +82,22 @@ body {
   animation: shimmer 3s linear infinite;
 }
 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@theme inline {
+  @keyframes background-position-spin {
+  0% {
+    background-position: top center;
+    }
+  100% {
+    background-position: bottom center;
+    }
+  }
+}
