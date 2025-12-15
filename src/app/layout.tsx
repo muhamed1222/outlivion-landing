@@ -20,12 +20,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <body className="antialiased">
-        <Script
-          src="https://cdn.visitors.now/v.js"
+      <head>
+        <Script 
+          src="https://cdn.visitors.now/v.js" 
           data-token="37db256d-c501-4ea8-a4ca-baff6c8479ec"
-          strategy="afterInteractive"
         />
+      </head>
+      <body className="antialiased">
         {children}
       </body>
     </html>
