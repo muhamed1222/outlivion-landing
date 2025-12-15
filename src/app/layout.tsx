@@ -23,7 +23,7 @@ export default function RootLayout({
       <head>
         <Script 
           src="https://cdn.visitors.now/v.js" 
-          data-token="37db256d-c501-4ea8-a4ca-baff6c8479ec"
+          data-token="8bbdc2ad-d98a-4a02-b43c-26f048fcc692"
         />
       </head>
       <body className="antialiased">
